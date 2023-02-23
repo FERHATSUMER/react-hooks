@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 44, 110);
+    
+}
+
+.container {
+    border: 2px solid rgb(148, 148, 78);
+    width: 100vh;
+    height: 100vh;
+    margin: 30px auto;
+    background-color: rgb(30, 30, 82);
+    -webkit-box-shadow: 17px 41px 90px -4px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 17px 41px 90px -4px rgba(0, 0, 0, 0.49);
+    box-shadow: 17px 41px 90px -4px rgba(0, 0, 0, 0.49);
+}
+
+.title {
+    border: 2px solid  rgb(148, 148, 78);
+    background-color: rgb(30, 30, 82);
+
+    width: 400px;
+    height: 50px;
+    padding: 0 172px;
+    font-size: 40px;
+    color: #fff;
+    -webkit-box-shadow: 17px 41px 90px -4px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 17px 41px 90px -4px rgba(0, 0, 0, 0.49);
+    box-shadow: 17px 41px 90px -4px rgba(0, 0, 0, 0.49);
+}
+
+.parg {
+    background-color: rgb(30, 30, 82);
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.btn-container {
+    color: #fff;
+    background-color: rgb(30, 30, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    padding-top: 150px;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn {
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f5e254;
+    background-color: #0066CC;
+    padding: 7px 27px;
+    border: solid #0066cc 4px;
+    box-shadow: rgb(209, 193, 105) 4px -3px 29px 16px;
+    border-radius: 49px 50px 50px;
+    transition: 1475ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.btn:hover {
+
+    transition: 1475ms;
+    padding: 10px 25px;
+    transform: translateY(-14px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 4px #0066cc;
+}
