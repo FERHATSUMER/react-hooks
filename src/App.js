@@ -1,4 +1,3 @@
-import './App.css';
 import Usestate from './components/Usestate';
 
 function App() {
